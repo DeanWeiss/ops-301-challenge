@@ -2,7 +2,7 @@
 
 # Script: Ops 301d5 Ops Challenge: Class 03
 # Author: Dean Weiss
-# Date of latest revision: 31 August 2022 2022
+# Date of latest revision: 31 August 2022
 # Purpose: Write a bash script to change file permission in a directory
 
 #main
