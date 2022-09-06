@@ -1,26 +1,14 @@
 #!/bin/bash
 
-# Script: Ops 301d5 Ops Challenge: Class 03
+# Script: Ops 301d5 Ops Challenge: Class 02
 # Author: Dean Weiss
-# Date of latest revision: 31 August 2022
-# Purpose: Write a bash script to change file permission in a directory
+# Date of latest revision: 30 August 2022 2022
+# Purpose: Manipulate a variable in bash to apply today’s date to a log file.
 
-#main
-#Prompts user for input directory path.
-echo Enter Directory Path
-read path
-
-#Prompts user for input permissions number
-echo Enter permission numbers
-read numbers
-
-#Change the File Permissions
-chmod -R $numbers $path
-
-#Navigates to the directory input by the user and changes all files inside it to the input setting.
-#for directory you'll want to use ". /Test" and for permissions I used "777", without quotations on both.
-
-#Prints to the screen the directory contents and the new permissions settings of everything in the directory.
-ls -l $path
-
-#end
+# Current Date and Time
+today=$(date +%D%T)
+# copies file 
+cp /var/log/syslog .
+# moves file and add the date and time to it
+mv syslog syslog$today
+#End
