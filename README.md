@@ -20,3 +20,5 @@ The challenges for the day will be placed here.
 [Challenge 10](https://github.com/DeanWeiss/ops-301-challenge/blob/main/challenge10.py)
 
 [Challenge 11](https://github.com/DeanWeiss/ops-301-challenge/blob/main/challenge11.py)
+
+[Challenge 12](https://github.com/DeanWeiss/ops-301-challenge/blob/main/challenge12.py)
